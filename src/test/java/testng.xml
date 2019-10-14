@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="LoginTest" parallel="none">
+    <test name="SucessTestMail">
+        <classes>
+            <class name="Test">
+                <methods>
+                    <include name="successLoginAndPassTest">
+                        <parameter name="login" value="Lapshov.av"/>
+                        <parameter name="pass" value="Lapshov"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="FiledLoginTestMail">
+        <classes>
+            <class name="Test">
+                <methods>
+                    <include name="filedLoginOrAndPassTest">
+                        <parameter name="login" value="Lapshov.av"/>
+                        <parameter name="pass" value="Lapshov128"/>
+                        <parameter name="textErrorBox" value="Неверное имя или пароль"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="FiledPassTestMail">
+        <classes>
+            <class name="Test">
+                <methods>
+                    <include name="filedLoginOrAndPassTest">
+                        <parameter name="login" value="Lapshov"/>
+                        <parameter name="pass" value="Lapshov128"/>
+                        <parameter name="textErrorBox" value="Неверное имя или пароль"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

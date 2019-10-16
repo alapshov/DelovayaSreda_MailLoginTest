@@ -1,3 +1,4 @@
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.LoginPage;
@@ -11,7 +12,6 @@ public class Test extends TestBase{
         InitializeWebDriver.getWebDriver().manage().window().maximize();
 
     }
-
     @org.testng.annotations.Test
     @Parameters({"login","pass"})
     public void successLoginAndPassTest(String login, String pass){
@@ -19,21 +19,40 @@ public class Test extends TestBase{
                 .enterLogin(login)
                 .enterPassButtonClick()
                 .enterPass(pass)
-                .loginButtonClick()
+                .loginButtonClick();
+
+        mailPage
                 .findCompose();
     }
 
+
     @org.testng.annotations.Test
     @Parameters({"login","pass", "textErrorBox"})
-    public void filedLoginOrAndPassTest(String login, String pass, String textErrorBox){
-     String text =  loginPage
+    public void filedOrEmptyLoginTest(String login, String pass, String textErrorBox) throws InterruptedException{
+        loginPage
+                .enterLogin(login)
+                .enterPassButtonClick()
+                .findMailBoxError();
+
+
+
+        Assert.assertEquals(loginPage.getMailBoxErrorText(), textErrorBox, "Не правильный текст с ошибкой");
+    }
+
+
+    @org.testng.annotations.Test
+    @Parameters({"login","pass", "textErrorBox"})
+    public void filedOrEmptyPassTest(String login, String pass, String textErrorBox) throws InterruptedException{
+        loginPage
                 .enterLogin(login)
                 .enterPassButtonClick()
                 .enterPass(pass)
                 .loginButtonClick()
-                .findMailBoxError()
-                .getMailBoxErrorText();
-        Assert.assertEquals(text, textErrorBox, "Не отображается текст с ошибкой");
+                .findMailBoxError();
+
+
+
+        Assert.assertEquals(loginPage.getMailBoxErrorText(), textErrorBox, "Не правильный текст с ошибкой");
     }
 
 

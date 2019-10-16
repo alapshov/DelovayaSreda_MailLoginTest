@@ -6,8 +6,8 @@
             <class name="Test">
                 <methods>
                     <include name="successLoginAndPassTest">
-                        <parameter name="login" value="Lapshov.av"/>
-                        <parameter name="pass" value="Lapshov"/>
+                        <parameter name="login" value="test15102019"/>
+                        <parameter name="pass" value="T1e2s3t4e5r6"/>
                     </include>
                 </methods>
             </class>
@@ -17,10 +17,23 @@
         <classes>
             <class name="Test">
                 <methods>
-                    <include name="filedLoginOrAndPassTest">
-                        <parameter name="login" value="Lapshov.av"/>
+                    <include name="filedOrEmptyLoginTest">
+                        <parameter name="login" value="test151020111"/>
+                        <parameter name="pass" value="T1e2s3t4e5r6"/>
+                        <parameter name="textErrorBox" value="Неверное имя ящика"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="EmptyLoginTest">
+        <classes>
+            <class name="Test">
+                <methods>
+                    <include name="filedOrEmptyLoginTest">
+                        <parameter name="login" value=""/>
                         <parameter name="pass" value="Lapshov128"/>
-                        <parameter name="textErrorBox" value="Неверное имя или пароль"/>
+                        <parameter name="textErrorBox" value="Введите имя ящика"/>
                     </include>
                 </methods>
             </class>
@@ -30,14 +43,26 @@
         <classes>
             <class name="Test">
                 <methods>
-                    <include name="filedLoginOrAndPassTest">
-                        <parameter name="login" value="Lapshov"/>
-                        <parameter name="pass" value="Lapshov128"/>
+                    <include name="filedOrEmptyPassTest">
+                        <parameter name="login" value="test15102019"/>
+                        <parameter name="pass" value="test1510201"/>
                         <parameter name="textErrorBox" value="Неверное имя или пароль"/>
                     </include>
                 </methods>
             </class>
         </classes>
     </test>
-
+    <test name="EmptyPassTest">
+        <classes>
+            <class name="Test">
+                <methods>
+                    <include name="filedOrEmptyPassTest">
+                        <parameter name="login" value="Lapshov.av"/>
+                        <parameter name="pass" value=""/>
+                        <parameter name="textErrorBox" value="Введите пароль"/>
+                    </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>

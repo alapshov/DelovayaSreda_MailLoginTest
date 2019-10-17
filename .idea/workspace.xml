@@ -2,120 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b5c3bef-5adf-4565-a23b-a720a377f949" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/DelovayaSreda.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MailPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MailPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webdriver/InitializeWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webdriver/InitializeWebDriver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/chromedriver_win32.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/DelovayaSreda.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/chromedriver_win32.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MailPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MailPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webdriver/InitializeWebDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webdriver/InitializeWebDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MailLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/22521867-d9f8-4317-85ad-20c5f9a71017-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/2ae8a959-b2d0-4067-a8aa-d367adc81592-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/30e83a0f-3eca-42ea-801c-92d5a2f3ab81-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/462b71b9-a994-460b-8ad6-81323ea4f066-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/47410ebb-b22b-457e-bb3e-40d4f9e52f11-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/476c91c0-95ed-4b62-8761-6a7d6ed5be89-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4af93fce-65df-4a49-9316-b7d5849d5b4f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/516131d9-53c5-4225-a4c5-5090e261fdaf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5426061c-06fc-469c-9c39-9baa2b614392-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/58eb61a7-ec9e-41cb-b1f0-2923c69c0ad3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/74deaf90-192a-43e0-b465-8b0867d00881-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7e7e1846-6e9b-45c2-9a99-5975b2e06004-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a056d4d0-cfe3-4066-8b33-e211f2c53ab3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/adb92b41-d960-4644-a2fc-798f9817eff0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/allure-results/allure.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/d26b846d-6003-42b5-8ac0-a7f095e008c3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e4f57f85-d322-4acb-967a-3ae721897a1e-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyLoginTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyLoginTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyLoginTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyLoginTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyPassTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyPassTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyPassTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/EmptyPassTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledLoginTestMail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledLoginTestMail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledLoginTestMail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledLoginTestMail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledPassTestMail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledPassTestMail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledPassTestMail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/FiledPassTestMail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/SucessTestMail.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/SucessTestMail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/LoginTest/SucessTestMail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/LoginTest/SucessTestMail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/LoginTest/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/webdriver/InitializeWebDriver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#267#268#0" expanded="true" />
-                <element signature="e#300#301#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MailPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="44" column="36" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/testng.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-              <folding>
-                <element signature="n#test#0;n#suite#0;n#!!top" />
-                <element signature="n#test#1;n#suite#0;n#!!top" />
-                <element signature="n#test#2;n#suite#0;n#!!top" />
-                <element signature="n#test#3;n#suite#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -129,91 +62,10 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/webdriver/InizializeWebDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MailPage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/TestBase.java" />
-        <option value="$PROJECT_DIR$/src/main/java/webdriver/InitializeWebDriver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Test.java" />
-        <option value="$PROJECT_DIR$/src/test/java/testng.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="67" />
-    <option name="y" value="176" />
-    <option name="width" value="1684" />
-    <option name="height" value="1026" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DelovayaSreda" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DelovayaSreda" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1SLFUjjYId5oViVAlv5riggeLLC" />
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571155180752" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571232710196" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -232,7 +84,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml">
+  <component name="RunManager" selected="TestNG.D:/Программирование/GitRepository/DelovayaSreda/src/test/java/MailLoginTest.xml">
+    <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/MailLoginTest.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="DelovayaSreda" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/MailLoginTest.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" type="TestNG" nameIsGenerated="true">
       <module name="DelovayaSreda" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/java/testng.xml" />
@@ -282,6 +144,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.D:/Программирование/GitRepository/DelovayaSreda/src/test/java/MailLoginTest.xml" />
         <item itemvalue="TestNG.Test.successLoginAndPassTest" />
         <item itemvalue="TestNG.Test" />
       </list>
@@ -300,38 +163,6 @@
     </task>
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 06m 54s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 11m 35s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 12m 55s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 15m 15s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 21m 43s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 23m 59s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 37m 15s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 52m 14s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 19h 58m 51s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="D__Программирование_GitRepository_DelovayaSreda_src_test_java_testng_xml - 2019.10.15 at 20h 44m 46s.xml">
-      <configuration name="D:/Программирование/GitRepository/DelovayaSreda/src/test/java/testng.xml" configurationId="TestNG" />
-    </history-entry>
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -341,67 +172,18 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27383864" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" x="22" y="73" width="1636" height="863" id="Run" order="2" sideWeight="0.48349634" side_tool="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49938875" weight="0.39977604" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.50733495" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.49266502" side_tool="true" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49938875" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25611246" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Learn" order="6" />
-      <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32922733" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32922733" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout-to-restore>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -472,202 +254,6 @@
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/webdriver/as.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/TestInvoker.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="427" selection-start-line="427" selection-end-line="427" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="151" column="9" selection-start-line="151" selection-start-column="9" selection-end-line="151" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0-sources.jar!/org/testng/internal/MethodInvocationHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0-sources.jar!/org/testng/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="34" column="4" selection-start-line="34" selection-start-column="4" selection-end-line="35" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/ImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="132" selection-start-line="132" selection-end-line="132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/RegularImmutableMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/Hashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="61" selection-start-line="61" selection-end-line="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59-sources.jar!/org/openqa/selenium/remote/RemoteWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="323" selection-start-line="323" selection-end-line="323" />
-          <folding>
-            <element signature="e#11473#11474#0" expanded="true" />
-            <element signature="e#11510#11511#0" expanded="true" />
-            <element signature="e#13590#13591#0" expanded="true" />
-            <element signature="e#13631#13632#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="1251" selection-start-line="1251" selection-end-line="1251" />
-          <folding>
-            <element signature="e#49082#49083#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/base/Preconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="1374" selection-start-line="1374" selection-end-line="1374" />
-          <folding>
-            <element signature="e#48322#48323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="754" selection-start-line="754" selection-end-line="754" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/25.0-jre/guava-25.0-jre-sources.jar!/com/google/common/collect/CollectPreconditions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/By.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="187" selection-start-line="187" selection-end-line="187" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59-sources.jar!/org/openqa/selenium/WebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="130" column="7" selection-start-line="130" selection-start-column="7" selection-end-line="130" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/allure-results/4a080832-a722-451e-8bc4-78d4f9ef8e12-result.json" />
-    <entry file="file://$PROJECT_DIR$/target/surefire-reports/old/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/webdriver/InitializeWebDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="38" column="21" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#267#268#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="76" column="26" selection-start-line="76" selection-start-column="26" selection-end-line="76" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MailPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="43" column="36" lean-forward="true" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="27" column="11" selection-start-line="27" selection-start-column="11" selection-end-line="27" selection-end-column="11" />
-          <folding>
-            <element signature="n#test#0;n#suite#0;n#!!top" />
-            <element signature="n#test#1;n#suite#0;n#!!top" />
-            <element signature="n#test#2;n#suite#0;n#!!top" />
-            <element signature="n#test#3;n#suite#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

@@ -39,7 +39,7 @@
                             </property>
                         </systemProperties>
                         <suiteXmlFiles>
-                            <suiteXmlFile>src/test/java/testng.xml</suiteXmlFile>
+                            <suiteXmlFile>src/test/java/MailLoginTest.xml</suiteXmlFile>
                         </suiteXmlFiles>
                     </configuration>
             </plugin>
@@ -77,8 +77,6 @@
         <artifactId>allure-testng</artifactId>
         <version>2.13.0</version>
     </dependency>
-
-
 </dependencies>
     <properties>
         <maven-surefire-plugin.version>2.12.4</maven-surefire-plugin.version>

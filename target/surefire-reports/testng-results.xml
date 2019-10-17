@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="10" total="15" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="LoginTest" duration-ms="60733" started-at="2019-10-16T16:59:32 GMT+04:00" finished-at="2019-10-16T17:00:33 GMT+04:00">
+  <suite name="LoginTest" duration-ms="67700" started-at="2019-10-18T00:02:26 GMT+04:00" finished-at="2019-10-18T00:03:34 GMT+04:00">
     <groups>
     </groups>
-    <test name="SucessTestMail" duration-ms="10783" started-at="2019-10-16T16:59:32 GMT+04:00" finished-at="2019-10-16T16:59:43 GMT+04:00">
+    <test name="SucessTestMail" duration-ms="11460" started-at="2019-10-18T00:02:26 GMT+04:00" finished-at="2019-10-18T00:02:38 GMT+04:00">
       <class name="Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@4fb61f4a]" name="setUp" is-config="true" duration-ms="4586" started-at="2019-10-16T16:59:32 GMT+04:00" finished-at="2019-10-16T16:59:37 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@a514af7]" name="setUp" is-config="true" duration-ms="4759" started-at="2019-10-18T00:02:26 GMT+04:00" finished-at="2019-10-18T00:02:31 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="successLoginAndPassTest(java.lang.String, java.lang.String)[pri:0, instance:Test@4fb61f4a]" name="successLoginAndPassTest" duration-ms="3224" started-at="2019-10-16T16:59:37 GMT+04:00" finished-at="2019-10-16T16:59:40 GMT+04:00">
+        <test-method status="PASS" signature="successLoginAndPassTest(java.lang.String, java.lang.String)[pri:0, instance:Test@a514af7]" name="successLoginAndPassTest" duration-ms="3735" started-at="2019-10-18T00:02:31 GMT+04:00" finished-at="2019-10-18T00:02:35 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -27,19 +27,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- successLoginAndPassTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@4fb61f4a]" name="tearDown" is-config="true" duration-ms="2872" started-at="2019-10-16T16:59:40 GMT+04:00" finished-at="2019-10-16T16:59:43 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@a514af7]" name="tearDown" is-config="true" duration-ms="2879" started-at="2019-10-18T00:02:35 GMT+04:00" finished-at="2019-10-18T00:02:38 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test -->
     </test> <!-- SucessTestMail -->
-    <test name="FiledLoginTestMail" duration-ms="12293" started-at="2019-10-16T16:59:43 GMT+04:00" finished-at="2019-10-16T16:59:55 GMT+04:00">
+    <test name="FiledLoginTestMail" duration-ms="12238" started-at="2019-10-18T00:02:38 GMT+04:00" finished-at="2019-10-18T00:02:50 GMT+04:00">
       <class name="Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@79e2c065]" name="setUp" is-config="true" duration-ms="4048" started-at="2019-10-16T16:59:43 GMT+04:00" finished-at="2019-10-16T16:59:47 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@399f45b1]" name="setUp" is-config="true" duration-ms="4100" started-at="2019-10-18T00:02:38 GMT+04:00" finished-at="2019-10-18T00:02:42 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="filedOrEmptyLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@79e2c065]" name="filedOrEmptyLoginTest" duration-ms="5377" started-at="2019-10-16T16:59:47 GMT+04:00" finished-at="2019-10-16T16:59:52 GMT+04:00">
+        <test-method status="PASS" signature="filedOrEmptyLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@399f45b1]" name="filedOrEmptyLoginTest" duration-ms="5260" started-at="2019-10-18T00:02:42 GMT+04:00" finished-at="2019-10-18T00:02:47 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -60,19 +60,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filedOrEmptyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@79e2c065]" name="tearDown" is-config="true" duration-ms="2867" started-at="2019-10-16T16:59:52 GMT+04:00" finished-at="2019-10-16T16:59:55 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@399f45b1]" name="tearDown" is-config="true" duration-ms="2877" started-at="2019-10-18T00:02:47 GMT+04:00" finished-at="2019-10-18T00:02:50 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test -->
     </test> <!-- FiledLoginTestMail -->
-    <test name="EmptyLoginTest" duration-ms="12025" started-at="2019-10-16T16:59:55 GMT+04:00" finished-at="2019-10-16T17:00:07 GMT+04:00">
+    <test name="EmptyLoginTest" duration-ms="16257" started-at="2019-10-18T00:02:50 GMT+04:00" finished-at="2019-10-18T00:03:06 GMT+04:00">
       <class name="Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@49ec71f8]" name="setUp" is-config="true" duration-ms="3947" started-at="2019-10-16T16:59:55 GMT+04:00" finished-at="2019-10-16T16:59:59 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@36bc55de]" name="setUp" is-config="true" duration-ms="8249" started-at="2019-10-18T00:02:50 GMT+04:00" finished-at="2019-10-18T00:02:58 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="filedOrEmptyLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@49ec71f8]" name="filedOrEmptyLoginTest" duration-ms="5222" started-at="2019-10-16T16:59:59 GMT+04:00" finished-at="2019-10-16T17:00:04 GMT+04:00">
+        <test-method status="PASS" signature="filedOrEmptyLoginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@36bc55de]" name="filedOrEmptyLoginTest" duration-ms="5132" started-at="2019-10-18T00:02:58 GMT+04:00" finished-at="2019-10-18T00:03:03 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -93,19 +93,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filedOrEmptyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@49ec71f8]" name="tearDown" is-config="true" duration-ms="2853" started-at="2019-10-16T17:00:04 GMT+04:00" finished-at="2019-10-16T17:00:07 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@36bc55de]" name="tearDown" is-config="true" duration-ms="2874" started-at="2019-10-18T00:03:03 GMT+04:00" finished-at="2019-10-18T00:03:06 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test -->
     </test> <!-- EmptyLoginTest -->
-    <test name="FiledPassTestMail" duration-ms="12785" started-at="2019-10-16T17:00:07 GMT+04:00" finished-at="2019-10-16T17:00:20 GMT+04:00">
+    <test name="FiledPassTestMail" duration-ms="12425" started-at="2019-10-18T00:03:06 GMT+04:00" finished-at="2019-10-18T00:03:19 GMT+04:00">
       <class name="Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@74fe5c40]" name="setUp" is-config="true" duration-ms="4447" started-at="2019-10-16T17:00:07 GMT+04:00" finished-at="2019-10-16T17:00:12 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@223d2c72]" name="setUp" is-config="true" duration-ms="3995" started-at="2019-10-18T00:03:06 GMT+04:00" finished-at="2019-10-18T00:03:10 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="filedOrEmptyPassTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@74fe5c40]" name="filedOrEmptyPassTest" duration-ms="5484" started-at="2019-10-16T17:00:12 GMT+04:00" finished-at="2019-10-16T17:00:17 GMT+04:00">
+        <test-method status="PASS" signature="filedOrEmptyPassTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@223d2c72]" name="filedOrEmptyPassTest" duration-ms="5538" started-at="2019-10-18T00:03:10 GMT+04:00" finished-at="2019-10-18T00:03:16 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -126,19 +126,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filedOrEmptyPassTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@74fe5c40]" name="tearDown" is-config="true" duration-ms="2853" started-at="2019-10-16T17:00:17 GMT+04:00" finished-at="2019-10-16T17:00:20 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@223d2c72]" name="tearDown" is-config="true" duration-ms="2890" started-at="2019-10-18T00:03:16 GMT+04:00" finished-at="2019-10-18T00:03:19 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- Test -->
     </test> <!-- FiledPassTestMail -->
-    <test name="EmptyPassTest" duration-ms="12787" started-at="2019-10-16T17:00:20 GMT+04:00" finished-at="2019-10-16T17:00:33 GMT+04:00">
+    <test name="EmptyPassTest" duration-ms="15293" started-at="2019-10-18T00:03:19 GMT+04:00" finished-at="2019-10-18T00:03:34 GMT+04:00">
       <class name="Test">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@7f3b84b8]" name="setUp" is-config="true" duration-ms="4377" started-at="2019-10-16T17:00:20 GMT+04:00" finished-at="2019-10-16T17:00:24 GMT+04:00">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test@131774fe]" name="setUp" is-config="true" duration-ms="7027" started-at="2019-10-18T00:03:19 GMT+04:00" finished-at="2019-10-18T00:03:26 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="filedOrEmptyPassTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@7f3b84b8]" name="filedOrEmptyPassTest" duration-ms="5544" started-at="2019-10-16T17:00:24 GMT+04:00" finished-at="2019-10-16T17:00:30 GMT+04:00">
+        <test-method status="PASS" signature="filedOrEmptyPassTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test@131774fe]" name="filedOrEmptyPassTest" duration-ms="5353" started-at="2019-10-18T00:03:26 GMT+04:00" finished-at="2019-10-18T00:03:31 GMT+04:00">
           <params>
             <param index="0">
               <value>
@@ -159,7 +159,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- filedOrEmptyPassTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@7f3b84b8]" name="tearDown" is-config="true" duration-ms="2863" started-at="2019-10-16T17:00:30 GMT+04:00" finished-at="2019-10-16T17:00:33 GMT+04:00">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Test@131774fe]" name="tearDown" is-config="true" duration-ms="2913" started-at="2019-10-18T00:03:31 GMT+04:00" finished-at="2019-10-18T00:03:34 GMT+04:00">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

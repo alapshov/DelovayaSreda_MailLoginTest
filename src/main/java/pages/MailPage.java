@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import webdriver.InitializeWebDriver;
 
-public class MailPage extends InitializeWebDriver {
+public class MailPage {
     private By _composeLocator;
 
 
@@ -17,7 +17,7 @@ public class MailPage extends InitializeWebDriver {
      * @return
      */
     public MailPage findCompose(){
-        getWebDriver().findElement(_composeLocator);
+        InitializeWebDriver.getWebDriver().findElement(_composeLocator);
         return this;
     }
 
